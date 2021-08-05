@@ -63,7 +63,8 @@ we needed to calculate the number of times two or more than two kings appear con
 That can be calculated by 1-P(no kings appear together)
 So doing this we finally take out the probability of the number of times kings appear together!
 
-![image](https://user-images.githubusercontent.com/46298449/128374357-00763fef-b211-421a-9834-216a21e58b81.png)
+![image](https://user-images.githubusercontent.com/46298449/128374542-55d4394d-2fd9-4c30-8f5d-c46d4f49afb7.png)
+
 
 
 
