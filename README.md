@@ -65,6 +65,77 @@ So doing this we finally take out the probability of the number of times kings a
 
 ![image](https://user-images.githubusercontent.com/46298449/128374542-55d4394d-2fd9-4c30-8f5d-c46d4f49afb7.png)
 
+# LAS VEGAS ALGORITHM 
+
+•	In computing, a Las Vegas algorithm is a randomized algorithm that always gives correct results; that is, it always produces the correct result or it informs about the failure. However, the runtime of a Las Vegas algorithm differs depending on the input. The usual definition of a Las Vegas algorithm includes the restriction that the expected runtime be finite, where the expectation is carried out over the space of random information, or entropy, used in the algorithm
+
+•	For eg: Randomized Quicksort.
+
+# COMPARATIVE ANALYSIS
+
+ 
+ 
+  
+  MONTE-CARLO
+
+
+  
+  
+  LAS VEGAS
+
+
+  
+ 
+ 
+  
+  The output may be incorrect with some probability.
+
+
+  
+  
+  The output is guaranteed to be correct
+  no matter which random choices the algorithm makes
+
+
+  
+ 
+ 
+  
+  The running time is bounded for all
+  possible choices, but only most of the choices lead to the correct answer.
+
+
+  
+  
+  The running time is a random variable,
+  making the expected running time the most important parameter.
+
+
+  
+ 
+ 
+  
+  we can repeat the Monte Carlo algorithm
+  until we get a confirmed answer – this becomes a Las Vegas algorithm.
+
+
+  
+  
+  By an application of Markov's
+  inequality, a
+  Las Vegas algorithm can
+  be converted into a
+  Monte Carlo algorithm by
+  running it for set time and generating a random answer when it fails
+  to terminate.
+
+
+  
+ 
+
+
+
+
 
 
 
