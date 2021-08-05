@@ -8,9 +8,12 @@ And also to study the comparative analysis between Monte Carlo and Las Vegas.
 
 # WHY RANDOMNESS OVER DETERMINISTIC APPROACH?
 Algorithm that follow simple steps where we have predefined set of inputs and a required
-output and follow a suggested steps, then these algorithms are # Deterministic # algorithms. 
+output and follow a suggested steps, then these algorithms are Deterministic algorithms. 
 Meanwhile, Algorithms that uses random numbers to decide what to do next anywhere in
-its logic are called Randomized algorithms
+its logic are called Randomized algorithms.
+
+![image](https://user-images.githubusercontent.com/46298449/128373093-4c829e8d-6b9f-49e9-afee-58075ead2d12.png)
+
 
 
 
