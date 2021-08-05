@@ -14,6 +14,62 @@ its logic are called Randomized algorithms.
 
 ![image](https://user-images.githubusercontent.com/46298449/128373093-4c829e8d-6b9f-49e9-afee-58075ead2d12.png)
 
+# LITERATURE REVIEWS
+Randomization has become a standard approach in algorithm design due to its efficiency and simplicity. It has been used in wide spread applications, especially in the areas of communication, cryptography, data management, and discrete optimization. 
+It is most versatile and widely used numerical method.
+This project describes application of Monte Carlo method in sampling problems.
+This project briefly describes the nature and relevance of Monte Carlo simulations, the way to perform these simulations and analyze result.
+In computing, a Las Vegas algorithm is a randomized algorithm that always gives correct results; that is, it always produces the correct result or it informs about the failure. However, the runtime of a Las Vegas algorithm differs depending on the input.
+
+# MOTIVATION
+The motivation behind doing this project came to us from  the fact that making good decisions could be complicated and expensive.
+For eg: Consider a sorting procedure.
+Picking an element in the middle makes the procedure very efficient, but it is very expensive(that is linear time) to find such an element.
+But picking a random element will do!
+Randomized algorithm for a problem is usually simpler and more efficient than it’s deterministic counter part.
+
+# OBJECTIVES
+•	Comparative study of  randomized classification algorithms: Monte Carlo and Las Vegas.
+
+•	Our main aim is to introduce the fundamental concepts behind Monte Carlo methods and Las Vegas algorithm. The specific learning objectives are: 
+
+   (a) To become familiar with the general scope of both the methods
+   (b) To understand to role of “randomness” in Monte Carlo and Las Vegas.
+
+# MONTE CARLO ALGORITHM
+
+•	Monte Carlo algorithm produce correct or optimum result with some probability. These algorithms have deterministic running time and it is generally easier to find out worst case time complexity.
+
+•	By running it many times on independent random variables, we can make the failure probability arbitrarily small at the expense of running time.
+
+•	Monte Carlo methods vary, but tend to follow a particular pattern:
+
+	1.	Define a domain of possible inputs
+  
+  2.	Generate inputs randomly from a probability distribution over the domain
+  
+	3.	Perform a deterministic computation on the inputs
+  
+	4.	Aggregate the results
+  
+	5.	Simulation
+  
+	For eg: Consider a deck of cards or flip a coin.
+  
+# What is the probability that at least two kings will appear next to each other in a shuffled deck?
+
+Firstly we have taken a deck of cards and then done shuffling of cards by generating random numbers.
+we needed to calculate the number of times two or more than two kings appear consecutively.
+That can be calculated by 1-P(no kings appear together)
+So doing this we finally take out the probability of the number of times kings appear together!
+
+![image](https://user-images.githubusercontent.com/46298449/128374357-00763fef-b211-421a-9834-216a21e58b81.png)
+
+
+
+
+
+
 
 
 
