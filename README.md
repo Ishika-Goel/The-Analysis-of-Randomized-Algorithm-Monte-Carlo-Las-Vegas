@@ -5,4 +5,12 @@ Randomized algorithms make random decisions rather than deterministic decisions.
 These algorithms are commonly used in situations where no exact and fast algorithm is known.
 Our project focuses on the study of randomized algorithm mainly Monte Carlo and Las Vegas.
 And also to study the comparative analysis between Monte Carlo and Las Vegas.
-![image](https://user-images.githubusercontent.com/46298449/128372602-718ad42b-643a-4494-93ac-c293307f76cb.png)
+
+# WHY RANDOMNESS OVER DETERMINISTIC APPROACH?
+Algorithm that follow simple steps where we have predefined set of inputs and a required
+output and follow a suggested steps, then these algorithms are # Deterministic # algorithms. 
+Meanwhile, Algorithms that uses random numbers to decide what to do next anywhere in
+its logic are called Randomized algorithms
+
+
+
