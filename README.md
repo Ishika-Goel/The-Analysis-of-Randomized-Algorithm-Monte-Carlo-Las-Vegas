@@ -72,67 +72,17 @@ So doing this we finally take out the probability of the number of times kings a
 •	For eg: Randomized Quicksort.
 
 # COMPARATIVE ANALYSIS
+![Screenshot (1802)](https://user-images.githubusercontent.com/46298449/128383140-438f60d4-9d6f-4fd0-a1ba-b124890196e5.png)
+
+Assume that there is an array with the length of even n. Half of the array are 0's andthe rest half are 1's. The goal here is to find an index that contains a 1.
+
+![Screenshot (1804)](https://user-images.githubusercontent.com/46298449/128383543-2ba9c291-5d5a-4d09-95e0-e68d3f75b042.png)
+
+
+
 
  
  
-  
-  MONTE-CARLO
-
-
-  
-  
-  LAS VEGAS
-
-
-  
- 
- 
-  
-  The output may be incorrect with some probability.
-
-
-  
-  
-  The output is guaranteed to be correct
-  no matter which random choices the algorithm makes
-
-
-  
- 
- 
-  
-  The running time is bounded for all
-  possible choices, but only most of the choices lead to the correct answer.
-
-
-  
-  
-  The running time is a random variable,
-  making the expected running time the most important parameter.
-
-
-  
- 
- 
-  
-  we can repeat the Monte Carlo algorithm
-  until we get a confirmed answer – this becomes a Las Vegas algorithm.
-
-
-  
-  
-  By an application of Markov's
-  inequality, a
-  Las Vegas algorithm can
-  be converted into a
-  Monte Carlo algorithm by
-  running it for set time and generating a random answer when it fails
-  to terminate.
-
-
-  
- 
-
 
 
 
